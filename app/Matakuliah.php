@@ -9,3 +9,4 @@ class Matakuliah extends Model
     protected $table = 'Matakuliah';
     protected $fillable = ['title','keterangan'];
 }
+

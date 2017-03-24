@@ -18,9 +18,10 @@ class Jadwal_matakuliahController extends Controller
     }
     public function simpan(){
     	$jadwal_matakuliah = new Jadwal_matakuliah();
-    	$jadwal_matakuliah->mahasiswa_id = 1; 
+    	$jadwal_matakuliah->mahasiswa_id = 1;
     	$jadwal_matakuliah->ruangan_id = 1;
     	$jadwal_matakuliah->dosen_matakuliah_id = 1;
     	$jadwal_matakuliah->save();
-    	return "Data Jadwal Matakuliah telah disimpan";
+    	return "Data Jadwal matakuliah telah disimpan";
+}
 }

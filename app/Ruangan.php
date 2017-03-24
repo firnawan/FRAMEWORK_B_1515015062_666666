@@ -9,3 +9,4 @@ class Ruangan extends Model
     protected $table = 'Ruangan';
     protected $fillable = ['title'];
 }
+

@@ -9,7 +9,7 @@ use App\Dosen;
 
 class DosenController extends Controller
 {
-    public function awal(){
+     public function awal(){
     	return "Hello dari DosenController";
     }
     public function tambah(){
@@ -17,11 +17,11 @@ class DosenController extends Controller
     }
     public function simpan(){
     	$dosen = new Dosen();
-    	$dosen->nama = "Firnawan Azhari Hasman";
-    	$dosen->nip = "1515015062";
-    	$dosen->alamat = "Juanda 1";
+    	$dosen->nama = "Andre Prasetya Rahman";
+    	$dosen->nip = "1515015080";
+    	$dosen->alamat = "Perjuangan 07";
     	$dosen->pengguna_id = 3;
     	$dosen->save();
     	return "Data Dosen dengan Nama {$dosen->nama} telah disimpan";
-    }
+}
 }
