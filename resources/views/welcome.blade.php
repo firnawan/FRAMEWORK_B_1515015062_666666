@@ -38,8 +38,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">firnawan india</div>
+                <div class="title">FIRNAWAN</div>
             </div>
         </div>
     </body>
-</html>
+</html> 
